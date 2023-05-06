@@ -18,7 +18,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 
    ```bash
    $ python -m venv venv
-   $ . venv/bin/activate
+   $ source venv/Scripts/activate
    ```
 
 5. Install the requirements:
@@ -42,3 +42,13 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    ```
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
+9. To stop the app:
+
+   CRTL+C
+
+10. To safely deactivate the venv:
+
+   ```bash
+   $ deactivate
+   ```
